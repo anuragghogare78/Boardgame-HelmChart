@@ -1,0 +1,9 @@
+ReplicaCount: 2
+
+image:
+  repository: adijaiswal/boardshack
+  tag: latest
+
+service:
+  type: LoadBalancer
+  port: 80
